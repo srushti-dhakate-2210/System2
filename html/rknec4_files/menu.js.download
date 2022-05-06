@@ -1,0 +1,129 @@
+
+$(document).ready(function () {
+    var z = "." + "submenulist";
+    $(".navbutton").click(function () {
+        var n = ($(this).attr('id'));
+        var k = "#" + n;
+        $(k).find('i').toggleClass('fa fa-plus-square-o fa fa-minus-square-o')
+
+        var z = "#" + n + "ul";
+        $(z).toggle("medium");
+
+    });
+
+    //$(".list").click(function () {
+    //    var n1 = ($(this).attr('id'));
+    //    var k1 = "#nb" + n1;
+    //    $(k1).find('i').toggleClass('fa fa-plus-square-o fa fa-minus-square-o')
+
+    //    var z1 = "#nb" + n1 + "ul";
+    //    $(z1).toggle("medium");
+
+    //});
+
+    $(".togglebutton1").click(function () {
+
+        $("#menu").css('right', '0em');
+        $(".back").toggle();
+        $("body").css('overflow-y', 'hidden');
+    });
+
+    $(".togglebutton3").click(function () {
+
+        $("#menu").css('right', '-21em');
+        $(".back").toggle();
+        $("body").css('overflow-y', 'scroll');
+    });
+    $(".back").click(function () {
+
+        $("#menu").css('right', '-21em');
+        $(".back").toggle();
+        $("body").css('overflow-y', 'scroll');
+    });
+
+    //$(".togglebutton1").hover(function () {
+
+    //    $(".togglebutton1").css('padding-right', '1em');
+    //    $(".togglebutton1").css('background-color', 'black');
+    //    $(".togglebutton1").css('color', 'white');
+
+    //});
+    //$(".togglebutton1").mouseout(function () {
+
+    //    $(".togglebutton1").css('padding-right', '0.7em');
+    //    $(".togglebutton1").css('background-color', 'rgba(220, 220, 220, 0.41)');
+    //    $(".togglebutton1").css('color', '#504c4c');
+
+    //});
+
+
+    //$(".fa-bars").hover(function () {
+
+    //    $(".togglebutton1").css('padding-right', '1em');
+    //    $(".togglebutton1").css('background-color', 'black');
+    //    $(".togglebutton1").css('color', 'white');
+
+    //});
+    //$(".fa-bars").mouseout(function () {
+
+    //    $(".togglebutton1").css('padding-right', '0.7em');
+    //    $(".togglebutton1").css('background-color', 'rgba(220, 220, 220, 0.41)');
+    //    $(".togglebutton1").css('color', '#504c4c');
+
+    //});
+
+
+    /*JQuery for search*/
+
+
+    $(".togglebutton2").click(function () {
+
+        $("#search").css('right', '0em');
+        $(".back2").toggle();
+        $("body").css('overflow-y', 'hidden');
+    });
+
+    $(".togglebutton4").click(function () {
+
+        $("#search").css('right', '-21em');
+        $(".back2").toggle();
+        $("body").css('overflow-y', 'scroll');
+    });
+    $(".back2").click(function () {
+
+        $("#search").css('right', '-21em');
+        $(".back2").toggle();
+        $("body").css('overflow-y', 'scroll');
+    });
+
+    //$(".togglebutton2").hover(function () {
+
+    //    $(".togglebutton2").css('padding-right', '1em');
+    //    $(".togglebutton2").css('background-color', 'black');
+    //    $(".togglebutton2").css('color', 'white');
+
+    //});
+    //$(".togglebutton2").mouseout(function () {
+
+    //    $(".togglebutton2").css('padding-right', '0.7em');
+    //    $(".togglebutton2").css('background-color', 'rgba(220, 220, 220, 0.41)');
+    //    $(".togglebutton2").css('color', '#504c4c');
+
+    //});
+
+
+    //$(".fa-search").hover(function () {
+
+    //    $(".togglebutton2").css('padding-right', '1em');
+    //    $(".togglebutton2").css('background-color', 'black');
+    //    $(".togglebutton2").css('color', 'white');
+
+    //});
+    //$(".fa-search").mouseout(function () {
+
+    //    $(".togglebutton2").css('padding-right', '0.7em');
+    //    $(".togglebutton2").css('background-color', 'rgba(220, 220, 220, 0.41)');
+    //    $(".togglebutton2").css('color', '#504c4c');
+
+    //});
+});

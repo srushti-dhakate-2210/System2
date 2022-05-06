@@ -1,0 +1,481 @@
+/* Circular Content Carousel Style */
+.newhori {
+width:100%;
+
+}
+
+
+.ca-container{
+	position:relative;
+	margin:25px auto 20px auto;
+	width:990px;
+	height:450px;
+}
+.ca-wrapper{
+	width:100%;
+	height:100%;
+	position:relative;
+}
+@media screen and (max-width: 1600px) and (min-width: 1200px) {
+    .ca-container {
+        position: relative;
+        margin: 25px auto 20px auto;
+        width: 990px;
+        height: 450px;
+    }
+   .ca-item{
+	position:relative;
+	float:left;
+	width:330px;
+	height:100%;
+	text-align:center;
+}
+}
+@media screen and (max-width: 1200px) and (min-width: 800px) {
+    .ca-container {
+        position: relative;
+        margin: 25px auto 20px auto;
+        width: 660px;
+        height: 450px;
+    }
+   .ca-item{
+	position:relative;
+	float:left;
+	width:300px;
+	height:100%;
+	text-align:center;
+}
+}
+
+@media screen and (max-width: 800px) and (min-width: 600px) {
+    .ca-container {
+        position: relative;
+        margin: 25px auto 20px auto;
+        width: 990px;
+        height: 450px;
+    }
+  .ca-item{
+	position:relative;
+	float:left;
+	width:330px;
+	height:100%;
+	text-align:center;
+}
+}
+
+@media screen and (max-width: 600px) and (min-width: 450px) {
+    .ca-container {
+        position: relative;
+        margin: 25px auto 20px auto;
+        width: 990px;
+        height: 450px;
+    }
+    .ca-item{
+	position:relative;
+	float:left;
+	width:330px;
+	height:100%;
+	text-align:center;
+}
+}
+
+@media screen and (max-width: 450px) and (min-width: 250px) {
+    .ca-container {
+        position: relative;
+        margin: 25px auto 20px auto;
+        width: 990px;
+        height: 450px;
+    }
+    .ca-item{
+	position:relative;
+	float:left;
+	width:330px;
+	height:100%;
+	text-align:center;
+}
+}
+
+
+@media screen and (max-width: 350px) {
+    .ca-container {
+        position: relative;
+        margin: 25px auto 20px auto;
+        width: 990px;
+        height: 450px;
+    }
+    .ca-item{
+	position:relative;
+	float:left;
+	width:330px;
+	height:100%;
+	text-align:center;
+}
+}
+.ca-item{
+	position:relative;
+	float:left;
+	width:330px;
+	height:100%;
+	text-align:center;
+}
+.ca-more{
+	/*position: absolute;
+	bottom: 10px;
+	right:0px;
+	padding:4px 15px;
+	font-weight:bold;
+	background: #ccbda2;
+	text-align:center;
+	color: white;*/
+	font-family: "Georgia","Times New Roman",serif;
+	font-style:italic;
+	text-shadow:1px 1px 1px #897c63;
+}
+.ca-close{
+	position:absolute;
+	top:10px;
+	right:10px;
+	background:#fff url(../images/cross.png) no-repeat center center;
+	width:27px;
+	height:27px;
+	text-indent:-9000px;
+	outline:none;
+	-moz-box-shadow:1px 1px 2px rgba(0,0,0,0.2);
+	-webkit-box-shadow:1px 1px 2px rgba(0,0,0,0.2);
+	box-shadow:1px 1px 2px rgba(0,0,0,0.2);
+	opacity:0.7;
+}
+.ca-close:hover{
+	opacity:1.0;
+}
+.ca-item-main{
+	padding:20px;
+	position:absolute;
+	top:5px;
+	left:5px;
+	right:5px;
+	bottom:5px;
+	background:#D9C89E;
+	overflow:hidden;
+	-moz-box-shadow:1px 1px 2px rgba(0,0,0,0.2);
+	-webkit-box-shadow:1px 1px 2px rgba(0,0,0,0.2);
+	box-shadow:1px 1px 2px rgba(0,0,0,0.2);
+}
+.ca-icon{
+	width:233px;
+	height:189px;
+	position:relative;
+	margin:0 auto;
+	background:transparent url(../images/1.jpg) no-repeat center center;
+}
+
+.ca-item-2 .ca-icon{
+	background-image:url(../images/nirf.png);
+}
+.ca-item-3 .ca-icon{
+	background-image:url(../images/Lib-Inaug.jpg);
+}
+.ca-item-4 .ca-icon{
+	background-image:url(../images/DSC12.jpg);
+}
+.ca-item-5 .ca-icon{
+	background-image:url(../images/rathi.jpg);
+}
+.ca-item-6 .ca-icon{
+	background-image:url(../images/sports.jpg);
+}
+.ca-item-7 .ca-icon{
+	background-image:url(../images/WAD.jpg);
+}
+.ca-item-8 .ca-icon{
+	background-image:url(../images/GC.jpg);
+}
+.ca-item-9 .ca-icon{
+	background-image:url(../images/camp.jpg);
+}
+.ca-item-10 .ca-icon{
+	background-image:url(../images/emp1.jpg);
+}
+.ca-item-11 .ca-icon{
+	background-image:url(../images/Techno10.JPG);
+}
+.ca-item-12 .ca-icon{
+	background-image:url(../images/smarthac.JPG);
+}
+.ca-item-13 .ca-icon{
+	background-image:url(../images/WAD17.png);
+}
+.ca-item-14 .ca-icon{
+	background-image:url(../images/Gyn17.JPG);
+}
+.ca-item-15 .ca-icon{
+	background-image:url(../images/bestprincipalawardhr.JPG);
+}
+
+.ca-item-16 .ca-icon{
+	background-image:url(../images/Mr.LohitKumarHori.jpg);
+}
+.ca-item-17 .ca-icon{
+	background-image:url(../images/gurbani.jpg);
+}
+
+.ca-item-18 .ca-icon{
+	background-image:url(../images/69repblic.jpg);
+}
+.ca-item-19 .ca-icon{
+	background-image:url(../images/udghosh.jpg);
+}
+.ca-item-20 .ca-icon{
+	background-image:url(../images/Sanskrit.jpg);
+}
+.ca-item-21 .ca-icon{
+	background-image:url(../images/gyanodaya18.jpg);
+}
+.ca-item-22 .ca-icon{
+	background-image:url(../images/2018/gradcer_small.jpg);
+}
+.ca-item-23 .ca-icon{
+	background-image:url(../images/2018/ICESC.jpg);
+}
+
+.ca-item-24 .ca-icon{
+	background-image:url(../images/IND2018.jpg);
+}
+
+.ca-item-34 .ca-icon{
+	background-image:url(../images/2018/MICON2018_small.jpg);
+}
+
+.ca-item-33 .ca-icon{
+	background-image:url(../images/2018/WAD2018_small.jpg);
+}
+
+.ca-item-35 .ca-icon{
+	background-image:url(../images/2018/Conclave2018_small.jpg);
+}
+
+.ca-item-36 .ca-icon{
+	background-image:url(../images/2019/RepublicDay19_small.jpg);
+}
+
+
+.ca-item-37 .ca-icon{
+	background-image:url(../images/2019/Udghosh2019_small.jpeg);
+}
+
+
+.ca-item-38 .ca-icon{
+	background-image:url(../images/2019/Prerna2019_small.jpg);
+}
+
+.ca-item-39 .ca-icon{
+	background-image:url(../images/2019/Pratishruti-AnandSancheti_small.jpg);
+}
+
+
+.ca-item-40 .ca-icon{
+	background-image:url(../images/2019/Hackathon_small-01.jpg);
+}
+
+.ca-item-41 .ca-icon{
+	background-image:url('http://rknec.edu/Imp%20Links/img/IndiaTodayLogo.png');
+}
+
+.ca-item-42 .ca-icon{
+	background-image:url(../images/2019/DSC_7922.jpg);
+}
+
+.ca-item-43 .ca-icon{
+	background-image:url(../images/2019/IndependenceDay19.jpg);
+}
+
+.ca-item-44 .ca-icon{
+	background-image:url(../images/2019/SWAYAMNPTEL.jpg);
+}
+
+.ca-item-45 .ca-icon {
+    background-image: url(../images/2019/aaruni.jpg);
+}
+
+.ca-item-46 .ca-icon {
+    background-image: url(../images/2019/geomine.jpg);
+}
+
+.ca-item-47 .ca-icon {
+    background-image: url(../images/2019/padmashri.jpg);
+}
+
+.ca-item-48 .ca-icon {
+    background-image: url(../images/2019/robotics.jpg);
+}
+
+.ca-item-49 .ca-icon {
+    background-image: url(../images/2019/conclave.png);
+}
+
+.ca-item-50 .ca-icon {
+    background-image: url(../images/2019/pedeps.jpg);
+}
+
+.ca-item-51 .ca-icon {
+    background-image: url(../images/2019/trackman.jpg);
+}
+.ca-item-52 .ca-icon {
+    background-image: url(../images/2019/ricess.jpg);
+}
+.ca-item-53 .ca-icon {
+    background-image: url(../images/2020/wontwogold.jpg);
+}
+.ca-item-54 .ca-icon {
+    background-image: url(../images/2020/RepublicDay2020.jpg);
+}
+.ca-item-55 .ca-icon {
+    background-image: url(../images/2020/Pratishruti-Inaugurated1.jpg);
+}
+.ca-item-56 .ca-icon {
+    background-image: url(../images/2020/VORTECHX-3.0.jpg);
+}
+.ca-item-57 .ca-icon {
+    background-image: url(../images/2020/IndependenceDay2020.jpg);
+}
+.ca-item-58 .ca-icon {
+    background-image: url(../images/2020/CIIT_inaug.jpg);
+}
+.ca-item-59 .ca-icon {
+    background-image: url(http://www.rknec.edu/images/2021/icesc.jpg);
+}
+.ca-item-60 .ca-icon {
+    background-image: url(http://www.rknec.edu/images/2021/republicday.jpg);
+}
+.ca-item-61 .ca-icon {
+    background-image: url(http://www.rknec.edu/images/2021/nea.jpg);
+}
+.ca-item-62 .ca-icon {
+    background-image: url(http://www.rknec.edu/images/2021/gyanodaya.jpg);
+}
+
+.ca-item-63 .ca-icon {
+    background-image: url(../images/2021/Gyanodaya21.jpg);
+}
+.ca-item-64 .ca-icon {
+    background-image: url(../images/2021/sandipjoshi.jpg);
+}
+.ca-item-65 .ca-icon {
+    background-image: url(../images/2021/swadeshichallenge.jpg);
+}
+.ca-item-66 .ca-icon {
+    background-image: url(../images/2022/RepublicDay2022_small.jpg);
+}
+
+
+
+.ca-item h3{
+	font-family: 'Coustard', sans-serif;
+	text-transform:uppercase;
+	font-size:20px;
+	color:#000;
+	margin-bottom:20px;
+	height:30px;
+	text-align:center;
+	text-shadow: 0px 1px 1px #e4ebe9;
+}
+.ca-item h4{
+	font-family: "Georgia","Times New Roman",serif;
+	font-style:italic;
+	font-size:12px;
+	text-align:left;
+	/*border-left:10px solid #b0ccc6;*/
+	padding-left:10px;
+	line-height:22px;
+	margin:10px;
+	position:relative;
+}
+.ca-item h4 span{
+	/*text-indent:40px;
+	display:block;*/
+}
+.ca-item h4  span.ca-quote{
+	color:#f4eee3;
+	/*font-size:70px;
+	position:absolute;
+	top:20px;
+	left:0px;
+	text-indent:0px;*/
+}
+.ca-content-wrapper{
+	background:#b0ccc6;
+	position:absolute;
+	width:0px; /* expands to width of the wrapper minus 1 element */
+	height:440px;
+	top:5px;
+	text-align:left;
+	z-index:10000;
+	overflow:hidden;
+}
+.ca-content{
+	width:660px;
+	overflow:hidden;
+}
+.ca-content-text{
+	font-size: 14px;
+	font-style: italic;
+	font-family: "Georgia","Times New Roman",serif;
+	margin:10px 20px;
+	padding:10px 20px;
+	line-height:24px;
+}
+.ca-content-text p{
+	padding-bottom:5px;
+}
+.ca-content h6{
+	margin:25px 20px 0px 35px;
+	font-size:32px;
+	padding-bottom:5px;
+	color:#000;
+	font-family: 'Coustard', sans-serif;
+	color:#60817a;
+	border-bottom:2px solid #99bcb4;
+	text-shadow: 1px 1px 1px #99BCB4;
+}
+.ca-content ul{
+	margin:20px 35px;
+	height:30px;
+}
+.ca-content ul li{
+	float:left;
+	margin:0px 2px;
+}
+.ca-content ul li a{
+	color:#fff;
+	background:#000;
+	padding:3px 6px;
+	font-size:14px;
+	font-family: "Georgia","Times New Roman",serif;
+	font-style:italic;
+}
+.ca-content ul li a:hover{
+	background:#fff;
+	color:#000;
+	text-shadow:none;
+}
+.ca-nav span{
+	width:25px;
+	height:38px;
+	background:transparent url(../images/arrows.png) no-repeat top left;
+	position:absolute;
+	top:50%;
+	margin-top:-19px;
+	left:-40px;
+	text-indent:-9000px;
+	opacity:0.7;
+	cursor:pointer;
+	z-index:100;
+}
+.ca-nav span.ca-nav-next{
+	background-position:top right;
+	left:auto;
+	right:-40px;
+}
+.ca-nav span:hover{
+	opacity:1.0;
+}

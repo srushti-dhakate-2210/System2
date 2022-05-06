@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        FEEDBACK_FORM
+    </title>
+
+    <style>
+        body {
+            background-image: url("Bg5.jpg");
+        }
+
+        .heading {
+            font-family: 'Dancing Script';
+            font-size: 450%;
+            font-style: italic;
+            text-align: center;
+            color: blueviolet
+        }
+
+        .subheading {
+            font-size: 250%;
+            color: cornflowerblue;
+            text-align: center;
+        }
+
+        .paragraph {
+            text-align: center;
+            background-color: rgb(181, 236, 254);
+            border: 2px;
+            border-radius: 8px;
+            border-color: rgb(0, 78, 130);
+            border-style: double;
+            font-size: 175%;
+            margin-left: 18%;
+            width: 65%;
+            color: rgb(3, 3, 90);
+        }
+
+        .main {
+            background-color: rgba(187, 241, 255, 0.85);
+            width: 850px;
+            margin: auto;
+            border-radius: 20px;
+        }
+
+        form {
+            padding: 10px;
+            text-align: center;
+
+
+        }
+
+        .label {
+            font-size: 120%;
+        }
+
+        .first-text {
+            margin-top: 10%;
+            margin-left: 10%;
+            color: deeppink;
+        }
+
+        .wrapper {
+            position: absolute;
+            top: 112%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotateY(180deg);
+            display: flex;
+        }
+
+        .wrapper input {
+            display: none;
+        }
+
+        .wrapper label {
+            display: block;
+            cursor: pointer;
+            width: 45px;
+        }
+
+        .wrapper label:before {
+            content: '★';
+            position: absolute;
+            display: block;
+            font-size: 45px;
+            color: deeppink;
+
+        }
+
+        .wrapper label:after {
+            content: '★';
+            position: absolute;
+            display: block;
+            font-size: 45px;
+            color: black;
+            top: 0;
+            opacity: 0;
+            transition: .6s;
+        }
+
+        .wrapper label:hover:after,
+        .wrapper label:hover~label:after,
+        .wrapper input:checked~label:after {
+            opacity: 1;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <h1 class="heading">Srushti's Food World </h1>
+    <h2 class="subheading">Give your feedback here!</h2>
+
+    <p class="paragraph"><b>We value your feedback, please provide your feedback for better user experience.</b></p>
+    <div class="main">
+        <form>
+            <label class="label" style="color:rgb(4, 4, 133); font-size: 175%;"> <b>How satisfied are you with our
+                    product? </b> </label><br><br>
+            <input type="radio" name="v" value="v">
+            <label class="label" style="color:rgb(28, 28, 190)" for="s"><b> very Satisfied</b></label>
+            <input type="radio" name="s" value="s">
+            <label class="label" style="color:rgb(28, 28, 190)" for="s"><b>Satisfied</b></label>
+            <input type="radio" name="n" value="n">
+            <label class="label" style="color:rgb(28, 28, 190)" for="n"><b>Neutral</b></label>
+            <input type="radio" name="u" value="u">
+            <label class="label" style="color:rgb(28, 28, 190)" for="u"><b>Unsatisfied</b></label><br><br><br>
+            <label class="label" style="color:rgb(4, 4, 133); font-size: 175%;"> <b>How satisfied are you with our
+                    service? </b> </label><br><br>
+            <input type="radio" name="v" value="v">
+            <label class="label" style="color:rgb(28, 28, 190)" for="s"><b> very Satisfied</b></label>
+            <input type="radio" name="s" value="s">
+            <label class="label" style="color:rgb(28, 28, 190)" for="s"><b>Satisfied</b></label>
+            <input type="radio" name="n" value="n">
+            <label class="label" style="color:rgb(28, 28, 190)" for="n"><b>Neutral</b></label>
+            <input type="radio" name="u" value="u">
+            <label class="label" style="color:rgb(28, 28, 190)" for="s"><b>Unsatisfied</b></label><br><br><br>
+            <label class="label" style="color:rgb(4, 4, 133); font-size: 175%;"> <b>Was the item as described by the
+                    seller? </b> </label><br><br>
+            <input type="radio" name="u" value="u">
+            <label class="label" style="color:rgb(28, 28, 190)" for="n"><b>Yes</b></label>
+            <input type="radio" name="u" value="u">
+            <label class="label" style="color:rgb(28, 28, 190)" for="n"><b>No</b></label>
+            <p style="color:rgb(4, 4, 133); font-size: 175%;"><label for="c"> <b>Comments </b> </label></p>
+            <textarea style="border-color: rgb(3, 3, 119);  border-radius: 2px; background-color: rgb(226, 255, 255);"
+                id="c" name="c" rows="4" cols="60" placeholder="Enter your comments here...."></textarea>
+        </form>
+        <h3 style="color:rgb(4, 4, 133); font-size: 175%; text-align: center;">Rate our Product</h3>
+        <form>
+            <div class="wrapper">
+                <div class="wrapper">
+                    <input type="radio" name="rate" id="rate1">
+                    <label for="rate1"></label>
+                    <input type="radio" name="rate" id="rate2">
+                    <label for="rate2"></label>
+                    <input type="radio" name="rate" id="rate3">
+                    <label for="rate3"></label>
+                    <input type="radio" name="rate" id="rate4">
+                    <label for="rate4"></label>
+                    <input type="radio" name="rate" id="rate5">
+                    <label for="rate5"></label>
+                </div>
+            </div>
+
+
+
+    </div>
+    </form>
+    <br>
+
+    <p style="color:rgb(4, 4, 133); font-size: 200%; text-align: center;"><u><b>Thank You!</u> </b> </p>
+    <br>
+
+</body>
+
+</html>
